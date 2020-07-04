@@ -6,9 +6,9 @@ int main(void){
     int niter=1000;
     srand((unsigned)time(NULL));
     int n_in=0;
-/*************/
-/* Main loop */
-/*************/
+    /*************/
+    /* Main loop */
+    /*************/
     for(int iter=1;iter<niter+1;iter++){
         double x = (double)rand()/RAND_MAX;
         double y = (double)rand()/RAND_MAX;
